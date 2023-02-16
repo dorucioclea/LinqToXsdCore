@@ -56,7 +56,7 @@
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="1.0">
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
-  <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="fhir-xhtml.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="../fhir-xhtml.xsd"/>
   <xs:include schemaLocation="fhir-all.xsd"/>
 
   <xs:simpleType name="AdministrativeGenderEnum">
